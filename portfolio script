@@ -1,0 +1,20 @@
+const header = document.querySelector('Header');
+const nav = document.querySelector('nav');
+let headTop = header.offsetTop;
+
+window.addEventListener('scroll', function() {
+    if(this.scrollY > headTop) {
+        nav.classList.add('navClass');
+    } else {
+        nav.classList.remove('navClass');
+    }
+}) 
+
+const hamburger = document.querySelector('.hamburger').addEventListener('click', function() {
+    const ul = document.querySelector('.ul-nav');
+    ul.classList.toggle('hidden');
+})
+
+
+
+
