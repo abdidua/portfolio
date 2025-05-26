@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+    --color-accent-one: #6366f1;
+    --color-accent-two: #8b5cf6;
+    --color-accent-three: #7b4cf5;
+    --color-border-home: rgba(255, 255, 255, 0.5);
+    --color-bg-dark: #0f0f0f;
+    --color-bg-darker: #1a1a1a;
+    --color-text-light: #fff;
+    --color-text-muted: #aaa;
+    --color-card-bg: rgba(255, 255, 255, 0.01);
+    --color-border-color: rgba(255, 255, 255, 0.05);
+    --color-shadow: rgba(99, 102, 241, 0.5);
+    --spacing-span-width: 26px;
+    --spacing-span-height: 2px;
+    --spacing-filter: 25px;
+    --text-paragraft: 0.8rem;
+    --spacing-none: 0;
+    --spacing-fivety: 50px;
+    --spacing-eighty: 80px;
+    --spacing-width-image: 300px;
+    --spacing-height-image: 400px;
+    --font-rock: "Rock Salt", cursive;
+    --inset-shadow-purple: 0 0 35px rgba(99, 102, 241, 0.5);
+    --inset-shadow-white: 0 0 25px white;
+}
+
+.span {
+    width: var(--spacing-span-width);
+    height: var(--spacing-span-height);
+    background-color: var(--color-white);
+}
+
+.navClass {
+    @apply border-b border-bg-darker/70 border-solid bg-bg-dark/60 z-[9999] backdrop-blur-sm;
+  }
+  
+/* .media-card::before {
+    content: '';
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    background: rgba(255, 255, 255, 0.015);
+    left: -50%;
+    top: -50%;
+    animation: 5s rotate linear infinite;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    } to {
+        transform: rotate(360deg);
+    }
+} */
+
+
+
+
+
+
+
+
+
+
