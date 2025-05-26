@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="src/output.css" rel="stylesheet" />
+  <!-- MY FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet" />
+
+
+</head>
+
+<body class="p-0 m-0">
+  <header class="w-full relative">
+    <nav class="py-2 xl:py-6 fixed left-0 right-0 top-0 bg-green-one z-60">
+      <div class="px-3 md:px-0 flex justify-between items-center container mx-auto">
+        <div class="flex items-center gap-2">
+          <span
+            class="w-10 h-10 bg-text-muted rounded-full text-center flex items-center justify-center font-rock font-semibold">A</span>
+          <h1 class="text-text-light font-medium">M Abdi Fardani</h1>
+        </div>
+
+        <div
+          class="py-1.5 px-1 bg-orange-one flex flex-col gap-1.5 justify-center items-center  cursor-pointer hover:bg-accent-two active:bg-accent-three xl:hidden hamburger">
+          <span class="span"></span>
+          <span class="span"></span>
+          <span class="span"></span>
+        </div>
+
+        <ul
+          class="absolute right-12 bg-bg-dark/60 backdrop-blur-sm xl:backdrop-blur-none rounded-md py-2 top-12 xl:static hidden flex-col xl:flex-row text-text-light font-semibold xl:w-100 justify-around text-lg w-50 text-center gap-2 xl:bg-transparent ul-nav xl:flex">
+          <li>
+            <a href="Home">Home</a>
+          </li>
+          <li>
+            <a href="About">About</a>
+          </li>
+          <li>
+            <a href="Services">Services</a>
+          </li>
+          <li>
+            <a href="Projects">Projects</a>
+          </li>
+          <li class="xl:hidden">
+            <a href="Contact" class="text-white">Media</a>
+          </li>
+        </ul>
+
+        <div class="hidden xl:block">
+          <ul>
+            <li class="bg-accent-one py-2 px-6 rounded-xl">
+              <a href="Contact" class="text-white">Media</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+
+
+
+
+
+
+  <section class="h-screen relative z-20 bg-linear-to-tr from-bg-dark to-bg-darker flex items-center">
+    <div class="container mx-auto">
+      <div class="flex flex-wrap items-center justify-center">
+        <div id="Home" class="Home pt-35 xl:pt-0 flex flex-col items-center w-full xl:w-1/2 xl:block xl:pl-10">
+          <h1 class="font-bold text-text-light text-2xl lg:text-3xl" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="150">
+            I'm <span class="text-accent-one">Abdi.frdn</span>
+          </h1>
+          <p class="font-bold text-text-light text-2xl lg:text-3xl" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="250">FrontEnd Developer</p>
+          <p class="font-bold text-text-light text-2xl lg:text-3xl" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="350">From Indonesia</p>
+          <p class="px-19 text-paragraft my-6 text-text-muted sm:text-base sm:px-26 md:px-40 lg:px-70 lg:text-lg xl:px-0 xl:pr-30 text-center xl:text-justify"
+            data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="450">
+            I have experience as a Front-End Developer since the age of 16 and
+            have been learning to code for 2 years.
+          </p>
+          <a class="flex justify-between mx-auto bg-accent-one rounded-full py-[0.15rem] w-52 px-1 xl:mx-none cursor-pointer"
+            data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="550">
+            <button
+              class="bg-accent-two rounded-full px-2 text- font-semibold text-text-light border-2 border-border-home box-border cursor-pointer">
+              View My Portfolio
+            </button>
+            <button class="p-1 bg-white rounded-full flex justify-center cursor-pointer">
+              <svg class="w-6 h-6 text-gray-800 dark:text-black pl-1 py-0.1" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 10 16">
+                <path d="M3.414 1A2 2 0 0 0 0 2.414v11.172A2 2 0 0 0 3.414 15L9 9.414a2 2 0 0 0 0-2.828L3.414 1Z" />
+              </svg>
+            </button>
+          </a>
+
+          <button
+            class="bg-text-light text-bg-dark w-52 h-9 rounded-full mx-auto mt-4 cursor-pointer active:bg-transparent active:text-white active:border active: border-white"
+            data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="650">
+            Hire Me
+          </button>
+        </div>
+
+        <div class="w-full xl:w-1/2 xl:pt-0 flex items-end pt-15 relative" data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="150">
+          <div class="mx-auto">
+            <div class="w-3/4 lg:w-1/2 xl:w-3/4 absolute -z-10 left-1/2 -translate-x-1/2">
+              <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#8b5cf6"
+                  d="M35.5,-57.1C45.5,-48.9,52.7,-38.1,59.7,-26.2C66.7,-14.4,73.5,-1.4,74.8,12.9C76.1,27.2,71.9,42.9,61.6,51.7C51.4,60.5,35.1,62.4,20.8,63C6.5,63.6,-5.8,62.8,-20.2,61.8C-34.5,60.7,-50.8,59.5,-59.3,50.8C-67.8,42.1,-68.4,26,-70.9,10.1C-73.4,-5.9,-77.8,-21.7,-75.1,-37C-72.3,-52.3,-62.4,-67,-48.7,-73.5C-35,-80.1,-17.5,-78.5,-2.4,-74.8C12.8,-71.1,25.6,-65.4,35.5,-57.1Z"
+                  transform="translate(100 100)" />
+              </svg>
+            </div>
+
+            <img src="image/abdi1png.png" alt="" width="350" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+              data-aos-duration="1000" data-aos-delay="250" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <section class="bg-linear-to-br from-bg-dark to-bg-darker overflow-hidden pb-20">
+    <div class="w-full h-full relative">
+      <div class="container pl-2 md:pl-14  mx-auto">
+
+        <div class="absolute top-0 bottom-0 w-1 bg-bg-darker right-2 "></div>
+        <div class="absolute left-0 right-0 h-1 bg-bg-darker top-10 "></div>
+        <div class="h-14 w-52 bg-bg-darker flex justify-center items-center absolute rotate-45 top-6 -right-13">
+          <h1 class="font-semibold text-text-muted">About Me</h1>
+        </div>
+
+        <div class="pt-36 flex border-box  pb-0 z-20">
+          <div class="flex   gap-2 pl-2 z-50">
+            <div
+              class="w-2/5 lg:w-2/5 pt-10 box-border bg-accent-two rounded-t-full flex items-end xl:box-border xl:w-90 xl:h-130 xl:pt-10">
+              <img src="image/abdi.png" alt="" class="mx-auto w-3/4" data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom" data-aos-duration="1500" data-aos-delay="150" />
+            </div>
+
+            <div class="flex flex-col justify-between md:ml-3 md:mt-6 lg:ml-6 lg:mt-8 lg:w-3/5">
+              <div class="flex flex-col gap-9 mt-6">
+                <div>
+                  <h1 class="text-lg text-text-light font-bold sm:text-xl md:text-2xl" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="80">
+                    A UI/UX DESIGNER
+                  </h1>
+                  <p class="text-xs sm:text-sm text-accent-one" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="150">
+                    BE UI/UX DESIGNER SINCE 2025
+                  </p>
+                </div>
+                <div>
+                  <h1 class="text-lg text-text-light font-bold sm:text-xl md:text-2xl" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="80">
+                    A FRONT END DEVELPOER
+                  </h1>
+                  <p class="text-xs sm:text-sm text-accent-one" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="150">
+                    BE UI/UX DESIGNER SINCE 2025
+                  </p>
+                </div>
+                <div>
+                  <h1 class="text-lg text-text-light font-bold sm:text-xl md:text-2xl" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="80">
+                    A IOT DEVELOPER
+                  </h1>
+                  <p class="text-xs sm:text-sm text-accent-one" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="150">
+                    BE UI/UX DESIGNER SINCE 2025
+                  </p>
+                </div>
+
+
+
+                <div class="hidden pr-4 sm:pr-10 lg:block lg:pr-0">
+                  <p class="text-text-light">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati,
+                    aliquam fugit! Ut, eum numquam totam ipsam fugiat similique a omnis
+                    quod eveniet facilis vel cumque quae ad tenetur obcaecati dicta
+                    ratione perspiciatis inventore rerum ipsum?
+                  </p>
+                </div>
+                <a href=""
+                  class="py-1 px-4 bg-transparent border border-accent-two bottom-4 w-33 h-10 rounded-lg flex items-center mt-4 sm:mt-2 hover:cursor-pointer">
+                  <button class="text-accent-two cursor-pointer">Download CV</button>
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="pr-4 mt-3 sm:pr-10 sm:ml-2 lg:hidden">
+          <p class="text-text-light">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati,
+            aliquam fugit! Ut, eum numquam totam ipsam fugiat similique a omnis
+            quod eveniet facilis vel cumque quae ad tenetur obcaecati dicta
+            ratione perspiciatis inventore rerum ipsum?
+          </p>
+        </div>
+
+
+
+        <div class="pl-3 mt-18">
+          <h1 class="text-xl text-accent-one font-semibold">SOFTWARE I USE</h1>
+          <div class="flex gap-3 mt-1">
+            <div class="w-14 h-14 ">
+              <img src="image/figma.png" alt="">
+            </div>
+            <div class="w-13 h-13 mt-1">
+              <img src="image/sketch.png" alt="">
+            </div>
+            <div class="w-12 h-12 mt-1 ml-1">
+              <img src="image/adobexd.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="pl-3 mt-7">
+          <h1 class="text-xl text-accent-one font-semibold">LANGUAGE I USE</h1>
+          <div class="flex gap-3">
+            <div class="w-14 h-14 ">
+              <img src="image/javascript.png" alt="">
+            </div>
+            <div class="w-13 h-13 mt-1">
+              <img src="image/react.png" alt="">
+            </div>
+            <div class="w-14 h-12 mt-2 ml-1">
+              <img src="image/vue.png" alt="">
+            </div>
+            <div class="w-16 h-12 mt-4 ml-1">
+              <img src="image/php.png" alt="">
+            </div>
+            <div class="w-12 h-12 mt-1 ml-1">
+              <img src="image/ci.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+  <section class="h-screen pt-20 bg-linear-to-tr from-bg-dark to-bg-darker pb-20">
+    <div class="container mx-auto">
+      <div class="pt-20">
+        <h1 class="text-center text-text-light text-2xl font-semibold">Services</h1>
+        <p class="text-text-muted mt-1 text-center">Creating web a responsive and user friendly</p>
+        <div class="flex flex-wrap justify-center gap-8 mt-14">
+          <div
+            class="w-100 h-60 md:w-90 md:h-50 lg:w-100 lg:h-60  bg-card-bg rounded-lg border border-border-color backdrop-blur-[10px] hover:translate-y-[-10px] transition-all duration-300 hover:inset-shadow-white active:scale-[95%]">
+
+          </div>
+          <div
+            class="w-100 h-60 md:w-90 md:h-50 lg:w-100 lg:h-60  bg-card-bg rounded-lg border border-border-color backdrop-blur-[10px] hover:translate-y-[-10px] transition-all duration-300 hover:inset-shadow-white active:scale-[95%]">
+
+          </div>
+          <div
+            class="w-100 h-60 md:w-90 md:h-50 lg:w-100 lg:h-60  bg-card-bg rounded-lg border border-border-color backdrop-blur-[10px] hover:translate-y-[-10px] transition-all duration-300 hover:inset-shadow-white active:scale-[95%]">
+
+          </div>
+          <div
+            class="w-100 h-60 md:w-90 md:h-50 lg:w-100 lg:h-60  bg-card-bg rounded-lg border border-border-color backdrop-blur-[10px] hover:translate-y-[-10px] transition-all duration-300 hover:inset-shadow-white active:scale-[95%] hidden lg:block">
+
+          </div>
+          <div
+            class="w-100 h-60 md:w-90 md:h-50 lg:w-100 lg:h-60  bg-card-bg rounded-lg border border-border-color backdrop-blur-[10px] hover:translate-y-[-10px] transition-all duration-300 hover:inset-shadow-white active:scale-[95%] hidden lg:block">
+
+          </div>
+          <div
+            class="w-100 h-60 md:w-90 md:h-50 lg:w-100 lg:h-60  bg-card-bg rounded-lg border border-border-color backdrop-blur-[10px] hover:translate-y-[-10px] transition-all duration-300 hover:inset-shadow-white active:scale-[95%] hidden lg:block">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+  <section class="bg-linear-to-br from-bg-dark to-bg-darker">
+    <div class="container mx-auto">
+      <div class="pt-40 pb-40 lg:pt-30">
+        <h1 class="text-center text-text-light text-2xl font-semibold">Projects</h1>
+        <p class="text-text-muted mt-1 text-center">Three My Best Projects</p>
+        <div class="flex flex-wrap justify-center gap-8 mt-14">
+          <div
+            class="w-100 h-60 md:w-90 md:h-50 lg:w-100 lg:h-60  bg-card-bg rounded-lg border border-border-color backdrop-blur-[10px] hover:translate-y-[-10px] transition-all duration-300 hover:inset-shadow-purple active:scale-[95%]">
+
+          </div>
+          <div
+            class="w-100 h-60 md:w-90 md:h-50 lg:w-100 lg:h-60  bg-card-bg rounded-lg border border-border-color backdrop-blur-[10px] hover:translate-y-[-10px] transition-all duration-300 hover:inset-shadow-purple  active:scale-[95%]">
+
+          </div>
+          <div
+            class="w-100 h-60 md:w-90 md:h-50 lg:w-100 lg:h-60  bg-card-bg rounded-lg border border-border-color backdrop-blur-[10px] hover:translate-y-[-10px] transition-all duration-300 hover:inset-shadow-purple active:scale-[95%]">
+
+          </div>
+          <div
+            class="w-100 h-60 md:w-90 md:h-50 lg:w-100 lg:h-60  bg-card-bg rounded-lg border border-border-color backdrop-blur-[10px] hover:translate-y-[-10px] transition-all duration-300 hover:inset-shadow-purple  active:scale-[95%] hidden lg:block">
+
+          </div>
+          <div
+            class="w-100 h-60 md:w-90 md:h-50 lg:w-100 lg:h-60  bg-card-bg rounded-lg border border-border-color backdrop-blur-[10px] hover:translate-y-[-10px] transition-all duration-300 hover:inset-shadow-purple  active:scale-[95%] hidden lg:block">
+
+          </div>
+          <div
+            class="w-100 h-60 md:w-90 md:h-50 lg:w-100 lg:h-60  bg-card-bg rounded-lg border border-border-color backdrop-blur-[10px] hover:translate-y-[-10px] transition-all duration-300 hover:inset-shadow-purple  active:scale-[95%] hidden lg:block">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+  <section class=" bg-linear-to-tr from-bg-dark to-bg-darker pb-30">
+    <div class="blob hidden lg:block"></div>
+    <div class="container pt-20 mx-auto">
+      <h1 class="text-center text-text-light text-xl font-semibold">Media</h1>
+      <p class="text-lg text-text-muted text-center">My LinkedIdn & Instagram</p>
+      <div class="flex flex-wrap justify-center gap-8 mt-10">
+        <div
+          class="flex px-6 py-6 w-4/5 h-130 lg:w-120 lg:h-160 bg-card-bg border-2 border-border-color rounded-2xl border-l-6 border-l-[#e0135c] backdrop-blur-[30px] relative media-card overflow-hidden">
+          <div class="flex gap-2">
+            <div class="w-16 h-16 bg-transparent rounded-full border border-white">
+              <img src="" alt="">
+            </div>
+            <div class="mt-1">
+              <h1 class="text-center text-text-light font-semibold">@abdi.frdn</h1>
+              <p class="text-center text-text-muted">Instagram</p>
+            </div>
+          </div>
+          <div class="flex flex-wrap gap-0">
+            <img src="" alt="">
+          </div>
+          <a href="abdiba">
+            <button
+              class="w-42 h-10 bg-white absolute bottom-10 left-1/2 -translate-x-1/2 rounded-md cursor-pointer border-2 border-text-light active:bg-transparent active:text-text-light">Kunjungi
+              Instagram</button>
+          </a>
+        </div>
+        <div
+          class="flex px-6 py-6 w-4/5 h-130 lg:w-120 lg:h-160 bg-card-bg border-2 border-border-color rounded-2xl border-l-6 border-l-[#0077b5] backdrop-blur-[30px] relative media-card overflow-hidden">
+          <div class="flex gap-2 ">
+            <div class="w-16 h-16 bg-transparent rounded-full border border-white">
+              <img src="" alt="">
+            </div>
+            <div class="mt-1">
+              <h1 class="text-center text-text-light font-semibold">@abdi.frdn</h1>
+              <p class="text-center text-text-muted">Instagram</p>
+            </div>
+          </div>
+          <div class="flex flex-wrap gap-0">
+            <img src="" alt="">
+          </div>
+
+          <a href="abdiba">
+            <button
+              class="w-42 h-10 bg-white absolute bottom-10 left-1/2 -translate-x-1/2 rounded-md cursor-pointer border-2 border-text-light active:bg-transparent active:text-text-light">Kunjungi
+              Instagram</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="bg-linear-to-br from-bg-dark to-bg-darker pt-25 pb-25">
+    <div class="container mx-auto">
+      <h1 class="text-text-light text-center font-semibold text-xl">Comment Section</h1>
+      <div class="">
+
+      </div>
+
+      <div>
+        <div class="w-full flex flex-wrap justify-center mt-12 gap-9">
+          <div class="p-6 w-9/10 lg:w-2/5 border border-border-color bg-bg-darker rounded-lg">
+            <h1 class="text-text-light font-semibold text-lg">Alicia</h1>
+            <h4 class="text-text-muted font-medium text-base">@aliciaOctava</h4>
+            <p class="text-text-light mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt molestias,
+              a
+              labore ut, quisquam beatae nobis modi obcaecati magnam dolor commodi. Nostrum earum ducimus, quasi
+              necessitatibus architecto quod labore animi?</p>
+          </div>
+          <div class="p-6 w-9/10 lg:w-2/5 border border-border-color bg-bg-darker rounded-lg">
+            <h1 class="text-text-light font-semibold text-lg">Alicia</h1>
+            <h4 class="text-text-muted font-medium text-base">@aliciaOctava</h4>
+            <p class="text-text-light mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt molestias,
+              a
+              labore ut, quisquam beatae nobis modi obcaecati magnam dolor commodi. Nostrum earum ducimus, quasi
+              necessitatibus architecto quod labore animi?</p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+
+
+  <footer
+    class="pb-30 border-2 border-t-border-color border-solid w-full pt-20 bg-linear-to-br from-bg-darker to-bg-dark">
+    <div class="container mx-auto">
+      <h1 class="text-center text-xl text-text-light font-bold">Muhammad Abdi Fardani</h1>
+      <p class="mt-3 text-center text-sm text-text-muted">Front-end Developer | UI/UX Designer | IOT Developer</p>
+      <ul class="flex gap-2 justify-center mt-4 text-sm text-text-muted">
+        <li>
+          <a href="">Home</a>
+        </li>
+        <li>
+          <a href="">About</a>
+        </li>
+        <li>
+          <a href="">Services</a>
+        </li>
+        <li>
+          <a href="">Projects</a>
+        </li>
+        <li>
+          <a href="">Media</a>
+        </li>
+      </ul>
+      <ul class="flex gap-3 justify-center text-sm text-text-muted">
+        <li>
+          <a href="">GitHub</a>
+        </li>
+        <li>
+          <a href="">LinkedIn</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script type="module" src="js/script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.refresh();
+    AOS.init();
+  </script>
+</body>
+
+</html>
